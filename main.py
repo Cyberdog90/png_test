@@ -4,9 +4,9 @@ import png_open
 def main():
     image = png_open.PngOpen("lenna")
     if image.check_image():
-        print("correct")
+        pass
     else:
-        print("wrong")
+        exit(-1)
 
 
 if __name__ == "__main__":
